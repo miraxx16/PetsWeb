@@ -1,0 +1,34 @@
+{
+	"decimalPlaces": 9,
+	"defaultPhase": 0,
+	"defaultPlant": "3PAGBIL_G01",
+	"billing": {
+		"TLI": "PAGBIL_G01,PAGBIL_G02",
+		"APRI": "MKBN_A,MKBN_B,MKBN_C,TIWI_A,TIWI_C"
+	}
+}
+
+PG&E, VEA, SCE, SDG&E
+
+Control Area means the electric power system (or combination of electric power systems) under the operational control of the CAISO or any other electric power system under the operational control of another organization vested with authority comparable to that of the CAISO.
+
+CAISO - Portfolio
+
+Power X - Main Folder
+		
+			PX North
+				Deal 1 => Utility 1 = NEVP Energy Volume - Demand RTPD Real time quarterhourly		
+				Deal 2 => Utility 2	= IPCO_ Energy  Volume - Demand  RTPD .csv	
+
+				
+			PX South
+				Deal 1= = SRP_ Energy  Volume - Demand  RTPD .csv
+			
+Grain=5minute, quarterhourly
+Computed Grain=hourly
+Phase=RealTime
+Type=Main	
+
+		
+		jobs/curvetotal
+	
